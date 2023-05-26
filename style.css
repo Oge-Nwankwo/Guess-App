@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    width:100%;
+    height:100vh;
+    /* padding: 100px 10%; */
+    background-color:#3ea2f3;
+    /* padding:30px; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+header{
+    text-align: center;
+}
+header h1{
+    color:white;
+}
+.fav{
+    padding:10px;
+    font-size: 14px;
+}
+ .content{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px;
+    /* width:100%; */
+}
+
+.num{
+    width:120px;
+background: papayawhip;
+text-align: center;
+padding: 5px;
+font-size: 25px;
+/* margin-left: 280px; */
+/* font-weight: bold; */
+
+}
+
+
+ .guess{
+width:250px;
+padding:10px;
+border:none;
+
+
+}
+.message{
+    text-align: center;
+    line-height: 3rem;
+
+}
+.btn{
+    
+    margin-left: 5px;
+    width:80px;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+
+}
+.btn:hover{
+    background-color:rgb(155, 124, 134);
+    color:white;
+}
+
+
+
+.scoreBoard{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+.scoreBoard span{
+    color:white;
+}
+
+
+.Hscores{
+    margin-left: 70px;
+}
+
+ .btnn{
+    border-radius: 5px;
+    border:none;
+    width:90px;
+    padding:10px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+.btnn:hover{
+    background-color:rgb(250, 153, 185);
+    color:white;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
